@@ -1,0 +1,57 @@
+Q1. What is HTML?
+
+Ans. HTML or Hypertext Markup Language was created by Berners-Lee in 1991. It is a markup language used to create and structure website templates or web pages to present the content on the World Wide Web. It consists of a series of elements and the HTML elements tell the browser how to display the content.
+
+Q2. What are the features of HTML?
+
+Ans. The following are the features of HTML: 
+It is a markup language that provides flexibility to design web pages with text.
+It is easy to use and learn. 
+HTML is platform-independent and can be used on Windows, Linux, and Macintosh, etc.
+It enables programmers to add images, video, and audio to a web page to make it more interactive.
+HTML allows programmers to add a link on the web pages, helping the readers to browse the information of their interest.
+It is case-insensitive. You can use tags either in lower-case or upper-case.
+
+Q3. Write the basic structure of the HTML template.
+
+Ans. The basic structure of the HTML template is:
+<html>
+      <head>
+                <title>Title of the page</title>
+      </head>
+      <body>content of the page</body>
+</html>
+
+Q4. What are HTML Attributes?
+
+Ans. HTML attributes provide additional information about HTML elements. They are defined directly after the tag name. They only appear in opening tags and not in closing tags. 
+HTML attributes usually consist of name/value pairs like name=”value”. The Attribute values should always be enclosed in quotation marks. The name parameter takes the name of the property that is to be assigned to the element. The value takes the property value or extent of the property names that can be aligned over the element. 
+
+Q5. What is semantic HTML?
+
+Ans. Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics, or meaning of the content in webpages and web applications rather than just defining its look or appearance. It introduces meaning to the code we write.
+
+Q6. How to align text in HTML?
+
+Ans. HTML content is aligned on a page using the CSS text-align property. It sets the horizontal alignment of the content inside a block element or table-cell box. The text-align property works like vertical-align but in the horizontal direction. It works on text as well as on all other content inside the block element, such as images and buttons. 
+Below is the code to align text in HTML: 
+<!DOCTYPE html>
+<html>
+ <head></head>
+<body>
+<h1>Heading</h1>
+ <p style=”text-align:center/left/right/justify;”>text</p>
+ </body>
+</html>
+
+Q7. How to write text on image in HTML?
+
+Ans. Below is the code to write text on image in HTML: 
+<div class=”container”>
+  <img src=”img_tree_wide.jpg” alt=”Tree” style=”width:100%;”>
+  <div class=”bottom-left”>Bottom Left</div>
+  <div class=”top-left”>Top Left</div>
+  <div class=”top-right”>Top Right</div>
+  <div class=”bottom-right”>Bottom Right</div>
+  <div class=”centered”>Centered</div>
+</div>
