@@ -1,0 +1,78 @@
+1. What is RDBMS?
+
+Ans. RDBMS stands for Relational Database Management System. RDBMS store the data into the collection of tables, which is related by common fields between the columns of the table. It also provides relational operators to manipulate the data stored into the tables.
+
+2. What is a primary key?
+
+Ans. A primary key is a combination of fields which uniquely specify a row. This is a special kind of unique key, and it has implicit NOT NULL constraint. It means, Primary key values cannot be NULL.
+
+3. What is SQL?
+
+Ans. SQL stands for Structured Query Language , and it is used to communicate with the Database. This is a standard language used to perform tasks such as retrieval, updation, insertion and deletion of data from a database.
+Standard SQL Commands are Select.
+
+4. What is a foreign key?
+
+Ans. A foreign key is one table which can be related to the primary key of another table. Relationship needs to be created between two tables by referencing foreign key with the primary key of another table.
+
+5.  What are the types of join and explain each?
+
+Ans. There are various types of join which can be used to retrieve data and it depends on the relationship between tables.
+
+Inner Join.
+Inner join return rows when there is at least one match of rows between the tables.
+
+Right Join.
+Right join return rows which are common between the tables and all rows of Right hand side table. Simply, it returns all the rows from the right hand side table even though there are no matches in the left hand side table.
+
+Left Join.
+Left join return rows which are common between the tables and all rows of Left hand side table. Simply, it returns all the rows from Left hand side table even though there are no matches in the Right hand side table.
+
+Full Join.
+Full join return rows when there are matching rows in any one of the tables. This means, it returns all the rows from the left hand side table and all the rows from the right hand side table.
+
+6. What are the types of SQL Commands?
+
+Ans. There are five types of SQL commands: DDL, DML, DCL, TCL, and DQL.
+
+1. Data Definition Language (DDL)
+
+DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc.
+All the command of DDL are auto-committed that means it permanently save all the changes in the database.
+Here are some commands that come under DDL:
+
+CREATE
+ALTER
+DROP
+TRUNCATE
+
+2. Data Manipulation Language
+
+DML commands are used to modify the database. It is responsible for all form of changes in the database.
+The command of DML is not auto-committed that means it can't permanently save all the changes in the database. They can be rollback.
+
+Here are some commands that come under DML:
+INSERT
+UPDATE
+DELETE
+
+3. Data Control Language
+
+DCL commands are used to grant and take back authority from any database user.
+
+Here are some commands that come under DCL:
+
+Grant
+Revoke
+
+4. Transaction Control Language
+
+TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only.
+
+These operations are automatically committed in the database that's why they cannot be used while creating tables or dropping them.
+
+Here are some commands that come under TCL:
+
+COMMIT
+ROLLBACK
+SAVEPOINT
