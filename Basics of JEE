@@ -1,0 +1,48 @@
+1. Web Specifications of Java EE?
+
+Ans. Servlet- This specification defines how you can manage HTTP requests either in a synchronous or asynchronous way. It is low level, and other specifications depend on it
+WebSocket- WebSocket is a computer communication protocol, and this API provides a set of APIs to facilitate WebSocket connections.
+Java Server Faces- It is a service which helps in building GUI out of components.
+Unified Expression Language- It is a simple language which was designed to facilitate web application developers.
+
+2. Web Service Specifications of Java EE?
+
+Ans. Java API for RESTful Web Services- It helps in providing services having Representational State Transfer schema.
+Java API for JSON Processing- It is a set of specifications to manage the information provided in JSON format.
+Java API for JSON Binding- It is a set of specifications provide for binding or parsing a JSON file into Java classes.
+Java Architecture for XML Binding- It allows binding of xml into Java objects.
+Java API for XML Web Services- SOAP is an xml based protocol to access web services over http. This API allows you to create SOAP web services.
+
+3. Enterprise Specifications of Java EE?
+
+Ans. Contexts and Dependency Injection- It provides a container to inject dependencies as in Swing.
+Enterprise JavaBean- It is a set of lightweight APIs that an object container possesses in order to provide transactions, remote procedure calls, and concurrency control.
+Java Persistence API- These are the specifications of object-relational mapping between relational database tables and Java classes.
+Java Transaction API- It contains the interfaces and annotations to establish interaction between transaction support offered by Java EE. The APIs in this abstract from low-level details and the interfaces are also considered low-level.
+Java Message Service- It provides a common way to Java program to create, send and read enterprise messaging system's messages.
+
+4. Other Specifications of Java EE?
+
+Ans. Validation- This package contains various interfaces and annotations for declarative validation support offered by Bean Validation API.
+Batch applications- It provides the means to run long running background tasks which involve a large volume of data and which need to be periodically executed.
+Java EE Connector Architecture- This is a Java-based technological solution for connecting Java servers to Enterprise Information System.
+
+5. What does the web module contain?
+
+Ans. The web module contains the following:
+
+JSP (Java Server Pages) files
+Class files for servlets
+Web deployment descriptor
+GIF (Graphics Interchange Format) and HTML (Hypertext Markup Language) files
+
+
+6. What does resource adapt module contain?
+
+Ans. The resource adapter module contains the following:
+
+Java interfaces
+Classes
+Native libraries
+Other documentation
+Resource Adapter deployment descriptor
