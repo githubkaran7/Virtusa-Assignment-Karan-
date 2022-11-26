@@ -1,0 +1,30 @@
+1. What is SDLC?
+
+Ans. The Software Development Life Cycle (SDLC) is a well-defined procedure for producing high-quality, low-cost software in the shortest amount of time possible. The SDLC's purpose is to create exceptional software that exceeds all customer expectations and demands.
+
+2. Explain the phases in a typical SDLC process briefly.
+
+Ans. Planning: The first stage of the SDLC is all about determining, what do clients want. Project planning is an important component of the software delivery lifecycle because it is here that the team estimates the cost and outlines the new program's needs.
+Gathering Requirements: Defining requirements is part of the planning process to figure out what the application is supposed to perform and what it needs. The development team examines the requirements while keeping the software's design and code in mind.
+Design: The following phase entails distilling all of the software project's requirements, analysis, and design information. 
+Development: This is where the code is really written. Writing code is the first step in putting a design into action. Developers must adhere to the coding requirements set forth by their bosses. 
+Testing: Before making an application available to users, it's vital to test it. The testing team examines the system's overall functionality. This phase aids with reducing the number of faults and issues seen by consumers. 
+Deployment: Once the product has been thoroughly tested and is ready for deployment, it is made available to customers. The deployment's complexity is determined by the project's size. Many businesses prefer to have the deployment step automated.
+Maintenance: The developed product is looked after throughout this period. The programme is updated on a regular basis to keep up with the changing user end environment or technology. 
+
+3. Explain the types of SDLC models?
+
+Ans. Following are the models that come under SDLC:
+Waterfall model: The waterfall model is a prominent software engineering and product development approach that takes a linear, sequential approach to the software development life cycle (SDLC).
+Agile model: Agile approaches divide jobs into smaller iterations or sections and avoid long-term planning entirely. The scope and requirements of the project are defined at the start of the development phase.
+Iterative model: One of the most straightforward software development life cycle models is the iterative approach. There are several situations when the initial or basic software requirements are well-defined, but the project's complete scope or set of features is unclear
+Spiral model: The spiral model is a risk management strategy that combines the iterative development process model with parts of the Waterfall approach.
+V-model model: The V-model is an SDLC paradigm in which processes are executed in a V-shape in a sequential manner. The Verification and Validation model is another name for it. 
+
+4. What are the tasks performed in Coding phase?
+
+Ans. In the coding phase, the design document is converted into an executable programming language. The output of the coding stage is the source code which can act as input for testing and maintenance phase.
+
+5. What Is Testing Phase?
+Answer : In testing phase, the code developed is tested against the design document to make sure that the product is actually solving the needs addressed and gathered during the requirements phase. 
+
