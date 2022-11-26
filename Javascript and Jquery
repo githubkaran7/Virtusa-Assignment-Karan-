@@ -1,0 +1,129 @@
+1. What are the different data types present in javascript?
+
+Ans. To know the type of a JavaScript variable, we can use the typeof operator.
+
+1. Primitive types
+
+String - It represents a series of characters and is written with quotes. A string can be represented using a single or a double quote.
+
+Example :
+
+var str = "Vivek Singh Bisht"; //using double quotes
+var str2 = 'John Doe'; //using single quotes
+Number - It represents a number and can be written with or without decimals.
+Example :
+
+var x = 3; //without decimal
+var y = 3.6; //with decimal
+BigInt - This data type is used to store numbers which are above the limitation of the Number data type. It can store large integers and is represented by adding “n” to an integer literal.
+Example :
+
+var bigInteger =  234567890123456789012345678901234567890;
+Boolean - It represents a logical entity and can have only two values : true or false. Booleans are generally used for conditional testing.
+Example :
+
+var a = 2;
+var b =  3;
+var c =  2;
+(a == b) // returns false
+(a == c) //returns true
+Undefined - When a variable is declared but not assigned, it has the value of undefined and it’s type is also undefined.
+Example :
+
+var x; // value of x is undefined
+var y = undefined; // we can also set the value of a variable as undefined
+Null - It represents a non-existent or a invalid value.
+Example :
+
+var z = null;
+Symbol - It is a new data type introduced in the ES6 version of javascript. It is used to store an anonymous and unique value.
+Example :
+
+var symbol1 = Symbol('symbol');
+typeof of primitive types :
+typeof "John Doe" // Returns "string"
+typeof 3.14 // Returns "number"
+typeof true // Returns "boolean"
+typeof 234567890123456789012345678901234567890n // Returns bigint
+typeof undefined // Returns "undefined"
+typeof null // Returns "object" (kind of a bug in JavaScript)
+typeof Symbol('symbol') // Returns Symbol
+2. Non-primitive types
+
+Primitive data types can store only a single value. To store multiple and complex values, non-primitive data types are used.
+Object - Used to store collection of data.
+Example:
+// Collection of data in key-value pairs
+
+var obj1 = {
+   x:  43,
+   y:  "Hello world!",
+   z: function(){
+      return this.x;
+   }
+}
+      
+// Collection of data as an ordered list
+
+
+2. Define a named function in JavaScript.
+
+Ans. The function which has named at the time of definition is called a named function. For example
+
+function msg()  
+{  
+  document.writeln("Named Function");  
+}  
+msg();  
+     
+3. Name the types of functions
+
+Ans. The types of function are:
+
+Named - These type of functions contains name at the time of definition. For Example:
+function display()  
+{  
+  document.writeln("Named Function");  
+}  
+display();  
+Anonymous - These type of functions doesn't contain any name. They are declared dynamically at runtime.
+var display=function()  
+{  
+  document.writeln("Anonymous Function");  
+}  
+display();  
+
+4. What are the effects methods used in jQuery?
+
+These are some effects methods used in jQuery:
+
+show() - It displays or shows the selected elements.
+hide() - It hides the matched or selected elements.
+toggle() - It shows or hides the matched elements. In other words, it toggles between the hide() and shows() methods.
+fadeIn() - It shows the matched elements by fading it to opaque. In other words, it fades in the selected elements.
+fadeOut() - It shows the matched elements by fading it to transparent. In other words, it fades out the selected elements.
+
+
+5. What is the use of html() method in JQuery?
+
+The jQuery html() method is used to change the entire content of the selected elements. It replaces the selected element content with new contents.
+
+Syntax:
+
+$(document).ready(function(){    
+    $("button").click(function(){    
+        $("p").html("Hello <b>Javatpoint.com</b>");    
+    });    
+});    
+
+
+6. Can you use multiple document.ready() function on the same page?
+
+Yes. You can use any number of document.ready() function on the same page. For example:
+
+$(document).ready(function() {    
+$("h1").css("background-color", "red");    
+ });    
+$(document).ready(function() {    
+$("p").css("background-color", "pink");    
+ });    
