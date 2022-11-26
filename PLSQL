@@ -1,0 +1,43 @@
+1) What is PL SQL?
+
+Ans. Oracle PL/SQL is an extension of SQL language that combines the data manipulation power of SQL with the processing power of procedural language to create super powerful SQL queries.
+
+2) Explain uses of cursor.
+
+Cursor is a named private area in SQL from which information can be accessed. They are required to process each row individually for queries which return multiple rows.
+
+3) What are the two types of exceptions.
+
+Error handling part of PL/SQL block is called Exception. They have two types : user_defined and predefined.
+
+4) Show the two PL/SQL cursor exceptions.
+
+Cursor_Already_Open
+
+Invaid_cursor
+
+5) What is a PL/SQL cursor?
+
+Ans. A PL/SQL cursor is nothing but a pointer to an area of memory having SQL statements and the information of statement processing. This memory area is called a context area. This special area makes use of a special feature called cursor for the purpose of retrieving and processing more than one row.
+In short, the cursor selects multiple rows from the database and these selected rows are individually processed within a program.
+
+There are two types of cursors:
+
+Implicit Cursor:
+Oracle automatically creates a cursor while running any of the commands - SELECT INTO, INSERT, DELETE or UPDATE implicitly.
+The execution cycle of these cursors is internally handled by Oracle and returns the information and status of the cursor by making use of the cursor attributes- ROWCOUNT, ISOPEN, FOUND, NOTFOUND.
+
+Explicit Cursor:
+This cursor is a SELECT statement that was declared explicitly in the declaration block.
+The programmer has to control the execution cycle of these cursors starting from OPEN to FETCH and close.
+The execution cycle while executing the SQL statement is defined by Oracle along with associating a cursor with it.
+
+6) Differentiate between SQL and PL/SQL.
+
+Ans. SQL / PL/SQL
+SQL is a natural language meant for the interactive processing of data in the database.	PL/SQL is a procedural extension of SQL.
+Decision-making and looping are not allowed in SQL.	PL/SQL supports all features of procedural language such as conditional and looping statements.
+All SQL statements are executed at a time by the database server which is why it becomes a time-consuming process.	PL/SQL statements are executed one block at a time thereby reducing the network traffic.
+There is no error handling mechanism in SQL.	This supports an error handling mechanism.
+
+
