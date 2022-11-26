@@ -1,0 +1,123 @@
+1. What is Object Oriented Programming?
+
+Ans. Object-Oriented Programming(OOPs) is a type of programming that is based on objects rather than just functions and procedures. Individual objects are grouped into classes. OOPs implements real-world entities like inheritance, polymorphism, hiding, etc into programming. It also allows binding data and code together.
+
+2.  What are the main features of OOPs?
+
+Inheritance
+Encapsulation
+Polymorphism
+Data Abstraction
+
+3. What is Java?
+
+Ans. Java is the high-level, object-oriented, robust, secure programming language, platform-independent, high performance, Multithreaded, and portable programming language.
+
+4. What is a REST API?
+
+Ans. An API is an application programming interface, which is a software-to-software interface that allows otherwise separate applications to interact and share data. In a REST API, all data is treated as resources, each one represented by a unique uniform resource identifier (URI).
+
+5. How to declare a string in Java?
+
+Ans. String declaration in Java can be done in two ways:
+
+By string literal: Double quotes are used to create Java String literals. 
+Example: String str= "Scaler";  
+By new keyword: Keyword "new" is used to create a Java string.
+Example: String str=new String ("Scaler");
+
+6.  What is inheritance?
+
+Ans. Inheritance is a feature of OOPs which allows classes inherit common properties from other classes. For example, if there is a class such as ‘vehicle’, other classes like ‘car’, ‘bike’, etc can inherit common properties from the vehicle class.
+
+7. What is polymorphism?
+
+Ans. Polymorphism refers to the ability to exist in multiple forms. Multiple definitions can be given to a single interface. For example, if you have a class named Vehicle, it can have a method named speed but you cannot define it because different vehicles have different speed. 
+
+8. What is an abstract class?
+
+Ans. An abstract class is a class that consists of abstract methods. These methods are basically declared but not defined. If these methods are to be used in some subclass, they need to be exclusively defined in the subclass.
+
+9. What is an interface?
+
+Ans. It is a concept of OOPs that allows you to declare methods without defining them. Interfaces, unlike classes, are not blueprints because they do not contain detailed instructions or actions to be performed. Any class that implements an interface defines the methods of the interface.
+
+10. What is exception handling?
+
+Ans. Exception handling in Object-Oriented Programming is a very important concept that is used to manage errors. An exception handler allows errors to be thrown and caught and implements a centralized mechanism to resolve them.
+
+11. What is Java IO?
+
+Ans: Java IO is a built-in Java API that allows you to read and write data (input and output). For example, read data from a file or over the network and then write to a file or over the network. The Java IO API can be found in the Java IO java.io package.
+
+12. What is InputStream and OutputStream in Java IO?
+
+Ans: An InputStream or a Reader is required by a programme that needs to read data from a source. An OutputStream or a Writer is required by a programme that needs to write data to a certain location.
+
+13. What is the difference between Collection and Stream? 
+
+Ans. The main difference between a Collection and a Stream is that Collection contains its elements, but a Stream doesn't. Stream work on a view where elements are actually stored by Collection or array, but unlike other views, any change made on Stream doesn't reflect on the original Collection.
+
+14. What is a functional interface in Java 8?
+
+Ans. As the name suggests, a functional interface is an interface that represents a function. Technically, an interface with just one abstract method is called a functional interface.
+
+15. What is Collection framework
+
+Ans. The Collection framework represents a unified architecture for storing and manipulating a group of objects. It has:
+
+Interfaces and its implementations, i.e., classes
+Algorithm
+
+16. Types of Java Generics?
+
+Ans. Generic Method: Generic Java method takes a parameter and returns some value after performing a task. It is exactly like a normal function, however, a generic method has type parameters that are cited by actual type. 
+Generic Classes: A generic class is implemented exactly like a non-generic class. The only difference is that it contains a type parameter section. There can be more than one type of parameter, separated by a comma.
+
+17. What are the benefits of using Multithreading?
+
+Ans. There are various benefits of multithreading as given below:
+
+Allow the program to run continuously even if a part of it is blocked. 
+Improve performance as compared to traditional parallel programs that use multiple processes. 
+Allows to write effective programs that utilize maximum CPU time
+Improves the responsiveness of complex applications or programs. 
+Increase use of CPU resources and reduce costs of maintenance. 
+Saves time and parallelism tasks. 
+
+18. What is Thread in Java?
+
+Ans. Threads are basically the lightweight and smallest unit of processing that can be managed independently by a scheduler. Threads are referred to as parts of a process that simply let a program execute efficiently with other parts or threads of the process at the same time. 
+
+19. What is java executor in java?
+
+Ans. Some types of Java Executors are listed below:
+SingleThreadExecutor
+FixedThreadPool(n)+
+CachedThreadPool
+ScheduledExecutor
+
+Single Thread Executor 
+
+A single thread pool can be obtained by calling the static newSingleThreadExecutor() method of the Executors class. It is used to execute tasks sequentially.
+
+Fixed Thread Pool(n)
+
+As the name indicates, it is a thread pool of a fixed number of threads. The tasks submitted to the executor are executed by the n threads and if there is more task they are stored on a LinkedBlockingQueue. It uses Blocking Queue.
+
+Cached Thread Pool
+
+Creates a thread pool that creates new threads as needed, but will reuse previously constructed threads when they are available. Calls to execute will reuse previously constructed threads if available. 
+
+Scheduled Executor
+
+Scheduled executors are based on the interface ScheduledExecutorService which extends the ExecutorService interface. 
+
+20. How do you format a date in Java? like in the ddMMyyyy format? 
+
+Ans. You can either use the SimpleDateFormat class or the joda-time library to format the date in Java. DateFormat class allows you to format date on many popular formats. Please see the answer for code samples to format the Date into different formats like dd-MM-yyyy or ddMMyyyy.
+
+21. What are Lambda expressions in Java programming language?
+
+Ans. Lambda expression is a Java programming language feature introduced in Java 8 that provides functional programming constructs to the Java programming language, which simplifies the Java code in certain cases such as with Java anonymous inner classes. Lambda expressions blends functional programming features with object oriented programming features of Java resulting in simplified and more powerful concurrency features.
+
